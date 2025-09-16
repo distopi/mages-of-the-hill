@@ -1,0 +1,408 @@
+@font-face {
+    font-family: teste;
+    src: url(fonts/a_absolute_empire/aAbsoluteEmpire.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.titulo {
+    font-family: teste;
+    font-size: 2rem;
+
+}
+
+
+.boniteza {
+    font-family: teste;
+    font-size: 2rem;
+    color: #222;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 70px;
+    vertical-align: top;
+
+}
+
+.navegação {
+    width: 100%;
+    height: 80px;
+    color: #eee;
+    background: #cc0000;
+    position: fixed;
+}
+
+.navegação-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direita {
+    align-items: right;
+}
+
+.esquerda {
+    display: flex;
+    align-items: leFT;
+}
+
+.navegação-links {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.navegação-links a {
+    display: inline-block;
+    padding: 26.1px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: #cc0000;
+    color: #eee;
+    transition: background 500ms ease;
+    border: none;
+    font-weight: bold;
+
+
+}
+
+.navegação-links a:hover {
+    cursor: pointer;
+    background: #222;
+}
+
+li {
+    padding: 5px;
+}
+
+.banner {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('IMG/TCoE_2560x1600_Wallpaper.jpeg') no-repeat center center/cover;
+}
+
+
+
+.sobre {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+.sobre_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre_desc {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.sobre_foto {
+    height: 400px;
+    width: auto;
+
+    margin: 0 30px;
+}
+
+.sobre_desc:nth-child(2) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+.galeira_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.galeria_foto {
+    display: inline-block;
+    width: 240PX;
+    height: 320px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria_foto:hover {
+    transform: scale(1.1);
+}
+
+.produto {
+    width: 100%;
+    padding: 50px;
+
+}
+
+.produto_container {
+
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 1.2rem;
+
+}
+
+.produtos {
+    border-radius: 10px;
+    height: 205px;
+    transition: transform 0.3s;
+
+}
+
+.produtos:hover {
+    transform: scale(1.7);
+}
+
+.caixa {
+    display: inline-block;
+    background-color: #111;
+    padding: 25px;
+    border-radius: 25px;
+    color: #eee;
+    transition: transform 0.3s;
+
+}
+
+.caixote {
+    display: inline-block;
+    background-color: #111;
+    padding: 25px;
+    border-radius: 25px;
+    color: #eee;
+
+
+}
+
+.caixa:hover {
+
+    transform: scale(1.5);
+
+}
+
+.parcerias {
+    width: 100%;
+    padding: 50px;
+    background: #222;
+    color: #eee;
+}
+
+.parcerias-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.parceiro {
+    border-radius: 100%;
+    height: 100px;
+    transition: transform 0.3s;
+    padding: 10px;
+}
+
+.parceiro:hover {
+    transform: scale(1.5);
+
+}
+
+.comercial {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    background: url(IMG/bannerzin.jpg) no-repeat center center/cover;
+    -webkit-mask-image: linear-gradient(transparent, black);
+    mask-image: linear-gradient(transparent, black);
+}
+
+.preto {
+    background: #222;
+}
+
+
+.livro_desc {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.livro_desc p {
+    padding: 30px;
+}
+
+.classes {
+    width: 100%;
+    padding: 50px;
+    background: #222;
+    color: #eee;
+}
+
+.classes_container {
+
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 1.2rem;
+
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 30px;
+
+
+}
+
+.classe {
+    border-radius: 10px;
+    height: 205px;
+    transition: transform 0.3s;
+
+}
+
+.classe:hover {
+    transform: scale(1.7);
+}
+
+.subclasse_desc {
+    display: inline-block;
+    width: 80%;
+
+
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.subclasse_desc p {
+
+    padding: 30px;
+}
+
+.sub_foto {
+    display: inline-block;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    max-width: 95%;
+}
+
+
+.subdesc_foto {
+    display: inline-block;
+    background-color: white;
+
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+
+.caixote_RED {
+    display: inline-block;
+    background-color: #111;
+    padding: 25px;
+    border-radius: 25px;
+    color: #eee;
+
+
+}
+
+.caixote_RED a {
+    color: #eee;
+    padding: 10px;
+    transition: background 500ms ease;
+
+    background-color: #333;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+
+
+
+
+}
+
+.caixote_RED a:hover {
+
+    background-color: #cc0000;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+.DRUID_foto {
+    display: inline-block;
+    background-color: white;
+    
+    border-radius: 10px;
+    transition: transform 0.3s;
+    max-width: 95%;
+}
